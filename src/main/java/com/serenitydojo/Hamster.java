@@ -11,6 +11,9 @@ public class Hamster extends Pet {
     public String getFavoriteGame() {
         return favoriteGame;
     }
+    public void setFavoriteGame(String favoriteGame) {
+        this.favoriteGame = favoriteGame;
+    }
 
     @Override
     public String makeNoise() {
